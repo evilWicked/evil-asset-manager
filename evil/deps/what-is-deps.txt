@@ -1,0 +1,9 @@
+Any third party dependencies that are required for the build
+need to be placed in this directory. 
+
+I am trying to avoid compiled dependencies as much as possible in 
+favour of source only libraries that are already included within 
+the code base.
+
+But if I need them for this or some other library, then this is 
+where cmake will look for them.

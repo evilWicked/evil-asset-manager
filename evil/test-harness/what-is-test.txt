@@ -1,0 +1,9 @@
+test contains a simple test harness that enables a bunch of tests
+to be run saving the output which it then dumps out in a simple table.
+
+I wanted to avoid tests streaming to cout in the middle of test iterations
+which messes out performance tests.  
+
+It is better to save the results and dump out at the end rather than have 
+loops waiting for cout.
+

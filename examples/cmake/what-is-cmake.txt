@@ -1,0 +1,3 @@
+this is used to store cmake macro and template files required to build the examples.
+
+You can ignore them for normal usage.

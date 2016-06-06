@@ -1,0 +1,3 @@
+
+Thread contains any thread related functionality. The thread pool is 
+the main object.

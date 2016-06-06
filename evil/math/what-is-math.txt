@@ -1,0 +1,2 @@
+
+Math contains various mathematical functions that I get sick of writing out in full.

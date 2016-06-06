@@ -1,0 +1,4 @@
+
+Util contains any utility code needed to support other libraries that doesn't quite fit
+into its own category. In the choice between duplicating modules or seperating things out,
+seperating won.

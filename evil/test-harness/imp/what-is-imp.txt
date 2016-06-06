@@ -1,0 +1,19 @@
+
+This one you probably have not seen before. It stands for implementation.
+
+The options for releasing this library was either use CMake or try some form of header
+only distribution.
+
+The CMake option is a good one - CMake works amazingly well - but seeing I dont have a 
+Mac would leave me releasing code that has only been built on windows.
+
+The examples do use CMake but dont work on anything except windows.
+
+So rather than release a cross platform library that can only run on one platform I 
+thought I would take some lessons from the single file STB libraries from Sean Barrett
+https://github.com/nothings/stb and release them as source only.
+
+you should find an evil-wrapper.cpp file in teh top level directory that does 
+the work for you simply #include evil/libname/evil-wrapper.cpp somehere in your source
+or if you want to break things up #include "/evil/libname/imp/filename.cpp" 
+wherever they are needed.

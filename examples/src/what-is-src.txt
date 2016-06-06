@@ -1,0 +1,3 @@
+the source required to build examples only lives here.
+
+You can ignore these files for normal usage.
