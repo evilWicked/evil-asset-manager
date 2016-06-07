@@ -1,0 +1,53 @@
+{
+	strings:{"name":"text"}
+	bitmaps:{"name":{location:""},"name":{location:""}}
+	spritesheets:{"name":{location:"",width:,height,frames}}
+	atlas:{name:{location:xxxx,name:{x,y,w,h}}}
+	fonts:{}
+	styles:{}
+	images:{name:{type:spritesheets,}}
+}
+
+
+
+definition:{
+	typename:"sprite",
+	attributes:{key:0,frame:0,pos:{x:0,y:0},anchor:{x:0,y:0},scale:{x:0,y:0},angle:0,alpha:1}
+}
+
+
+definition:{
+	typename:"control",	
+	knob:{type:sprite,key:"knob_img",anchor:{x:0.5,y:0.5}}
+	background:{type:sprite,key:"bg",anchor:{x:0.5,y:0.5}}
+	attributes:{pos:{x:0,y:0},anchor:{x:0,y:0},scale:{x:0,y:0},angle:0,alpha:1}
+}
+
+definition:{
+	typename:"control2",	
+	inherits:"control"
+	knob:{key:"knob_img2"}
+	children:[]
+}
+
+
+definition:{
+	typename:"panel",
+	c1:{type:control,knob:{key:"knob2_img"},pos:{x:0}}
+	c2:{type:control,knob:{key:"knob2_img"}}
+}
+
+instance:{
+	type:"panel",
+	c1:{type:control,knob:{key:"knob2_img"},pos:{x:0}}
+	c2:{type:control,knob:{key:"knob2_img"}}
+}
+
+control{
+	bg:sprite
+	knob:sprite
+}
+
+
+
+

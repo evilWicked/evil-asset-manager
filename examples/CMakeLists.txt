@@ -4,8 +4,8 @@ cmake_minimum_required(VERSION 2.8)
 set(CMAKE_CONFIGURATION_TYPES "Debug;Release")
 set(CMAKE_INSTALL_PREFIX  "${CMAKE_SOURCE_DIR}" CACHE INTERNAL "NOT USED")
 
-project(evil-loader-examples)
-set(EVIL_NAME evil-loader)
+project(evil-asset-manager-examples)
+set(EVIL_NAME evil-asset-manager)
 
 if(NOT CMAKE_MODULE_PATH)
 	set (CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${PROJECT_SOURCE_DIR}/cmake")

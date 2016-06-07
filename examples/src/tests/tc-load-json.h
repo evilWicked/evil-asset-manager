@@ -5,8 +5,7 @@
 
 
 Tests.add("test", [](evil::TestHarness *th,std::string& result)mutable->bool {
-	
-	
+
 		//got here so we passed
 		return true;
 });
