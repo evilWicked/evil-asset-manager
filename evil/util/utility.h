@@ -10,7 +10,10 @@
 
 #include <functional>
 #include <type_traits>
-
+#include <atomic>
+#include <string>
+#include <codecvt>
+#include <locale>
 
 ///need to specialise the standard is_placeholder method
 template<int> 
@@ -54,12 +57,20 @@ namespace evil {
 			return x;
 		}
 
-
 		template<class C, class... Args>
 		auto bind_class(C *c,void(C:: *f)(Args...))
 		{
 			return bind_class(c,f, make_int_sequence< sizeof...(Args) >{});
 		}
 
+		///generate an application unique id
+		unsigned int uniqueId();
+		
+		std::u16string strToUTF16(std::string str);
+
+		std::string UTF16toStr(std::u16string str16);
+
+		
 	}
+
 }

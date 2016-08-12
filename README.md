@@ -33,7 +33,7 @@ Nothing special. Just treat it as your own code and optimise to suit your own ne
 Dependencies
 ------------
 
-Other than other evil dependencies (included in the source) it utilises some of Sean Barrett's STB libraries https://github.com/nothings/stb which have also been included in the source.
+Other than other evil dependencies (included in the source) it utilises some of Sean Barrett's STB libraries https://github.com/nothings/stb and json for modern c++ from https://github.com/nlohmann/json which have also been included in the source.
 
 Built using C++11 std libraries.
 

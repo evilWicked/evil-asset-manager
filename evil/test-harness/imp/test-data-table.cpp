@@ -23,8 +23,8 @@ int TestDataTable<T>::Rows() { return (int)mTable.size(); }
 		///inserts a new row of T
 template<typename T>
 void TestDataTable<T>::insertRow(){
-	display_row r(miCols);
-	mTable.push_back(r);
+	//display_row r(miCols);
+	mTable.emplace_back(miCols);
 }
 
 

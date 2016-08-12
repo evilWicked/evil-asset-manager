@@ -1,3 +1,4 @@
+#pragma once 
 
 #include <atomic>
 #include <condition_variable>
@@ -8,10 +9,8 @@
 namespace evil {
 
 	/**
-		@brief An implementation of a thread safe queue we are using for threading. 
+		@brief An implementation of a thread safe queue we are using for the thread pool. 
 		
-		Technically it can be usedfor anything else as well but we will leave the ambiguity in naming where it is.
-
 		largely (99.99%) taken from http://roar11.com/2016/01/a-platform-independent-thread-pool-using-c14/
 		
 

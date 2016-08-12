@@ -1,5 +1,6 @@
 #pragma once
 
+#include "slot.h"
 #include "imp/signal-base.h"
 #include "../thread/read-write-lock.h"
 

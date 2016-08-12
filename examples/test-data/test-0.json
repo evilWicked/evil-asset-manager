@@ -1,0 +1,1069 @@
+{"language":"english",
+	
+	"fonts":{
+		"main":{"font-family":"berlin_sans_fb_demibold","src":"berlinsansdb/berlin-sans-fb-demi-bold-webfont","font-weight":"normal","font-style":"normal"},
+		"countdown":{"font-family":"bebas_neue_bold","src":"bebasneue/bebasneue_bold-webfont","font-weight":"normal","font-style":"normal"},
+		"dialog":{"font-family":"lato_regular","src":"lato/lato-regular-webfont","font-weight":"normal","font-style":"normal"},
+		"dialog_headings":{"font-family":"lato_bold","src":"lato/lato-bold-webfont","font-weight":"normal","font-style":"normal"}
+	},
+	
+	"bitmap_fonts":{
+		"boom":{"png":"boom.png","xml":"boom.xml"}
+	},
+	
+	"styles":{
+	
+		"btn-txt":{"font":"40px berlin_sans_fb_demibold","fill":"#dddddd","align":"center"},
+		"btn-txt-disabled":{"font":"40px berlin_sans_fb_demibold","fill":"#3e3e5d","align":"center"},
+		"btn-txt-flash":{"font":"40px berlin_sans_fb_demibold","fill":"#5599ff","align":"center"},
+		"btn-txt-selected":{"font":"40px berlin_sans_fb_demibold","fill":"#dddddd","align":"center"},
+		
+		"dlg-txt-title":{"font":"50px lato_bold","fill":"#dddddd","align":"center"},
+		"dlg-txt-subhead":{"font":"40px lato_bold","fill":"#dddddd","align":"center"},
+		"dlg-txt-left-column":{"font":"35px lato_regular","fill":"#dddddd","align":"left"},
+		"dlg-txt-right-column":{"font":"35px lato_regular","fill":"#dddddd","align":"left"},
+		"dlg-txt-body":{"font":"35px lato_regular","fill":"#dddddd","align":"left"},
+		
+		"popup-text-title":{"font":"50px berlin_sans_fb_demibold","fill":"#1e1e2e","align":"center"},
+		"popup-text-subhead":{"font":"40px berlin_sans_fb_demibold","fill":"#1e1e2e","align":"center"},
+		"popup-text-left-column":{"font":"35px lato_regular","fill":"#1e1e2e","align":"left"},
+		"popup-text-right-column":{"font":"35px lato_regular","fill":"#1e1e2e","align":"left"},
+		"popup-text-body":{"font":"35px lato_regular","fill":"#1e1e2e","align":"left"},
+		"popup-space":{"font":"14px lato_regular","fill":"#1e1e2e","align":"left"},
+		
+		"waiting-text":{"font":"40px lato_bold","fill":"#dddddd","align":"center"},
+				
+		"menu-text-large":{"font":"70px berlin_sans_fb_demibold","fill":"#dddddd","align":"center"},
+		"menu-text-large-disabled":{"font":"70px berlin_sans_fb_demibold","fill":"#3e3e5d","align":"center"},
+		"menu-text-normal":{"font":"40px berlin_sans_fb_demibold","fill":"#dddddd","align":"center"},
+		"menu-button-enabled":{"font":"50px berlin_sans_fb_demibold","fill":"#dddddd","align":"center"},
+		"menu-button-disabled":{"font":"50px berlin_sans_fb_demibold","fill":"#3e3e5d","align":"center"},
+		"menu-button-flash":{"font":"50px berlin_sans_fb_demibold","fill":"#5599ff","align":"center"},
+		
+		"pause-button-enabled":{"font":"80px berlin_sans_fb_demibold","fill":"#dddddd","align":"center"},
+		"pause-button-disabled":{"font":"80px berlin_sans_fb_demibold","fill":"#3e3e5d","align":"center"},
+		"pause-button-flash":{"font":"80px berlin_sans_fb_demibold","fill":"#5599ff","align":"center"},
+	
+		"selector-btn-txt":{"font":"40px berlin_sans_fb_demibold","fill":"#dddddd","align":"center"},
+		"selector-btn-txt-disabled":{"font":"40px berlin_sans_fb_demibold","fill":"#3e3e5d","align":"center"},
+		"selector-btn-txt-flash":{"font":"40px berlin_sans_fb_demibold","fill":"#5599ff","align":"center"},
+		
+		"invite-text-large":{"font":"50px berlin_sans_fb_demibold","fill":"#dddddd","align":"center"},
+		"invite-btn-txt":{"font":"40px berlin_sans_fb_demibold","fill":"#dddddd","align":"center"},
+		"invite-btn-txt-disabled":{"font":"40px berlin_sans_fb_demibold","fill":"#3e3e5d","align":"center"},
+		"invite-btn-txt-flash":{"font":"40px berlin_sans_fb_demibold","fill":"#5599ff","align":"center"},
+		
+		
+		"selector-name-txt":{"font":"50px berlin_sans_fb_demibold","fill":"#dddddd","align":"center"},
+		"selector-age-txt":{"font":"35px berlin_sans_fb_demibold","fill":"#dddddd","align":"center"},
+		"selector-desc-txt":{"font":"40px berlin_sans_fb_demibold","fill":"#dddddd","align":"center"},
+		"selector-opponent-txt":{"font":"50px berlin_sans_fb_demibold","fill":"#dddddd","align":"center"},
+		
+		"play-txt":{"font":"70px berlin_sans_fb_demibold","fill":"#dddddd","align":"center"},
+		"play-txt-disabled":{"font":"70px berlin_sans_fb_demibold","fill":"#3e3e5d","align":"center"},
+		"play-txt-flash":{"font":"70px berlin_sans_fb_demibold","fill":"#5599ff","align":"center"},
+		"popup-txt":{"font":"45px berlin_sans_fb_demibold","fill":"#111111","align":"center"},
+		
+		"price-premium":{"font":"40px berlin_sans_fb_demibold","fill":"#dddddd","align":"center"},
+		"price-no-ads":{"font":"40px berlin_sans_fb_demibold","fill":"#dddddd","align":"center"},
+		"price-num-games":{"font":"40px berlin_sans_fb_demibold","fill":"#dddddd","align":"center"},
+		"price-price":{"font":"80px berlin_sans_fb_demibold","fill":"#dddddd","align":"center"},
+		"price-purchased":{"font":"60px berlin_sans_fb_demibold","fill":"#dddddd","align":"center"},
+		"price-no-store":{"font":"40px berlin_sans_fb_demibold","fill":"#dddddd","align":"center"},
+		"price-failed":{"font":"40px berlin_sans_fb_demibold","fill":"#dddddd","align":"center"},
+					
+		"store-button-txt":{"font":"80px lato_bold","fill":"#ff6600","align":"center"},
+		"store-button-txt-disabled":{"font":"80px lato_bold","fill":"#666666","align":"center"},
+		"store-button-txt-flash":{"font":"80px lato_bold","fill":"#0099FF","align":"center"},
+		
+		"win-lose-txt-win":{"font":"40px berlin_sans_fb_demibold","fill":"#111111","align":"center"},
+		"win-lose-txt-lose":{"font":"40px berlin_sans_fb_demibold","fill":"#dddddd","align":"center"},
+		"win-lose-btn":{"font":"40px berlin_sans_fb_demibold","fill":"#dddddd","align":"center"},
+		"win-lose-btn-fl":{"font":"40px berlin_sans_fb_demibold","fill":"#5599ff","align":"center"},
+	
+		"got-it-btn":{"font":"40px berlin_sans_fb_demibold","fill":"#1e1e2e","align":"center"},
+		"got-it-btn-fl":{"font":"40px berlin_sans_fb_demibold","fill":"#5599ff","align":"center"},
+	
+		"purchase-txt":{"font":"70px berlin_sans_fb_demibold","fill":"#dddddd","align":"center"},
+		"purchase-txt-disabled":{"font":"70px berlin_sans_fb_demibold","fill":"#3e3e5d","align":"center"},
+		"purchase-txt-flash":{"font":"70px berlin_sans_fb_demibold","fill":"#5599ff","align":"center"},
+		
+		"match-txt":{"font":"70px berlin_sans_fb_demibold","fill":"#dddddd","align":"center"},
+		"match-txt-disabled":{"font":"70px berlin_sans_fb_demibold","fill":"#3e3e5d","align":"center"},
+		"match-txt-flash":{"font":"70px berlin_sans_fb_demibold","fill":"#5599ff","align":"center"},
+		
+		"match-desc-txt":{"font":"40px lato_regular","fill":"#dddddd","align":"center","wordWrap":true,"wordWrapWidth":400},
+		"match-desc-txt-disabled":{"font":"40px lato_regular","fill":"#3e3e5d","align":"center","wordWrap":true,"wordWrapWidth":400},
+		"match-desc-txt-flash":{"font":"40px lato_regular","fill":"#5599ff","align":"center","wordWrap":true,"wordWrapWidth":400},
+	
+		"upgrade-txt":{"font":"40px berlin_sans_fb_demibold","fill":"#1e1e2e","align":"center"},
+		"countdown-txt":{"font":"400px bebas_neue_bold","fill":"#dddddd","align":"center"},
+		"hit-text":{"font":"boom","size":70,"align":"center"}
+	},
+
+	"sprite_sheets":{
+		"arrow-icon":{"location":"arrow-icon.png","width":64,"height":64,"frames":3},
+		"single-button":{"location":"single-button.png","width":450,"height":450,"frames":1},
+		"multi-button":{"location":"multi-button.png","width":450,"height":250,"frames":1},
+		"selector-button-mode":{"location":"selector-button-mode.png","width":255,"height":120,"frames":3},
+		"icons-control":{"location":"icons-control-70.png","width":70,"height":70,"frames":48},
+		"icons-control-xl":{"location":"icons-control-125.png","width":125,"height":125,"frames":48},
+		"dialog-buttons":{"location":"dialog-buttons.png","width":160,"height":100,"frames":3},
+		"dialog-moves":{"location":"dialog-moves.png","width":200,"height":200,"frames":6},
+		"popup-scroller-buttons":{"location":"popup-scroller-buttons.png","width":200,"height":100,"frames":3},
+		"tiles-85":{"location":"tiles85.png","width":85,"height":85,"frames":44},
+		"tiles-100":{"location":"tiles100.png","width":100,"height":100,"frames":44},
+		"tiles-200":{"location":"tiles200.png","width":200,"height":200,"frames":44},
+		"tiles-dialog":{"location":"tiles-dialog.png","width":200,"height":200,"frames":18},
+		"icons-dialog":{"location":"icons-dialog.png","width":200,"height":200,"frames":20},
+		"icons-dialog-200":{"location":"icons-dialog-200.png","width":200,"height":200,"frames":15},
+		"grid-85":{"location":"grid-tile85.png","width":85,"height":85,"frames":9},
+		"selector-button-lr":{"location":"selector-button-lr.png","width":127,"height":240,"frames":6},
+		"selector-button":{"location":"selector-button.png","width":235,"height":240,"frames":3},
+		"selector-checkbox":{"location":"selector-checkbox.png","width":100,"height":100,"frames":6},
+		"win-lose-btn":{"location":"win-lose-buttons.png","width":200,"height":100,"frames":2},
+		"boombg":{"location":"boombg.png","width":220,"height":150,"frames":2}
+	},
+	
+	"preload_images":{
+		"empty":{"location":"empty.png"},
+		"evil-splash-bg":{"location":"splash-background.png"},
+		"evil-splash-logo":{"location":"splash-logo.png"},
+		"evil-splash-title":{"location":"splash-title.png"},
+		"evil-preload-bar":{"location":"progress-bar.png"},
+		"evil-preload-bg":{"location":"progress-bg.png"}		
+	},
+	
+	"preload_sprite_sheets":{
+		"play-button":{"location":"play-button.png","width":310,"height":110,"frames":3},
+		"connecting-anim":{"location":"connecting.png","width":430,"height":70,"frames":4}
+	},
+	
+	"images":{
+		"empty":{"location":"empty.png"},
+		"default-banner":{"location":"default-banner.png"},
+		"waiting-bg":{"location":"waiting-bg.png"},
+		"do-it-btn":{"location":"do-it-btn.png"},
+		"legatus-black-logo":{"location":"legatus-black-logo.png"},	
+		"legatus-item-bg":{"location":"legatus-item-bg.png"},	
+		"price-sticker":{"location":"price-sticker.png"},	
+		"invite-btn":{"location":"invite-btn.png"},
+		"list-bg":{"location":"list-background.png"},
+		"progress-spinner":{"location":"progress-spinner.png"},
+		"control-bg":{"location":"control-bg.png"},
+		"control-button-bg":{"location":"control-button-bg.png"},
+		"dialog-page-portrait":{"location":"dialog-page-portrait.png"},
+		"dialog-page-landscape":{"location":"dialog-page-landscape.png"},
+		"dialog-bg":{"location":"dialog-background.png"},
+		"dialog-overlay":{"location":"dialog-overlay.png"},
+		"dialog-select":{"location":"dialog-select.png"},
+		"tile-tray":{"location":"tile-tray.png"},
+		"grid-bg":{"location":"grid-14-8-bg.png"},
+		"carousel-bg":{"location":"carousel-bg.png"},
+		"mini-grid-bg":{"location":"mini-grid-14-8-bg.png"},
+		"popup-bg":{"location":"popup-bg.png"},
+		"popup-arrow":{"location":"popup-arrow.png"},
+		"popup-scroller-bg":{"location":"popup-scroller-bg.png"},
+		"popup-scroller-section-bg":{"location":"popup-scroller-section-bg.png"},	
+		"win-bg":{"location":"win-bg.png"},
+		"lose-bg":{"location":"lose-bg.png"},
+		"premium-img":{"location":"premium.png"},
+		"invite-bg":{"location":"invite-bg.png"},
+		"legatus192-nobg":{"location":"icon-android-nobg192.png"},
+		"legatus144-nobg":{"location":"icon-android-nobg144.png"}
+	},
+	
+	"audio_tracks":{
+		"dialog-back-track":{"location":"legatus-backtune.ogg","from":0,"duration":172.5,"loop":true}
+	},
+	
+	"audio_markers":{
+		"effects":{
+			  "location":"legatus-effects.ogg",
+			  "markers":{
+				  "enemy-piece":{"from":0,"duration":1.300,"loop":false},
+				  "player-piece":{"from":2.200,"duration":1.500,"loop":false},
+				  "player-loses":{"from":5.100,"duration":2.600,"loop":false},
+				  "player-wins":{"from":8.500,"duration":2.000,"loop":false},
+				  "player-check":{"from":12.000,"duration":3.200,"loop":false},
+				  "your-move":{"from":15.900,"duration":1.200,"loop":false},
+				  "invite-arrived":{"from":17.500,"duration":1.200,"loop":false}
+			  }
+		}		  
+	},
+	
+	"string_table":{
+	"0":"",
+	"1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+	"5":"Game:",
+	"10":"Play",
+	"11":"Play\nAgain?",
+	"15":"not played",
+	"20":"not completed",
+	"21":"you lost",
+	"25":"you won",
+	"30":"",
+	"31":"new game",
+	"35":"",
+	"60":"Intro",
+	"65":"Units",
+	"70":"Hints",
+	"95":"Resume",
+	"97":"Menu",	
+	"110":"Help and Hints\navailable here",
+	"115":"You can reset\nyour game here",
+	"120":"Google Play\nOffline",
+	"125":"Google Play\nOnline",
+	"130":"Google Play\nInaccessible",
+	"135":"Audio On",
+	"140":"Audio Off",	
+	"145":"Achievements",
+	"150":"Rate Legatus",	
+	"505":"PREMIUM",
+	"506":"No Ads",
+	"507":"24 More Games",
+	"508":"That's all the games folks",
+	"509":"Purchasing",
+	"510":"Purchased",	
+	"511":"Upgrade Successful",	
+	"512":"Sorry!!!\n The upgrade failed.\nRestarting the game\nshould fix things.",	
+	"513":"Upgrading...",	
+	"514":"Completed",	
+	"521":"Store Unavailable",
+	"525":"Purchase Refunded",
+	"530":"Purchase Cancelled",
+	"535":"Already Owned",	
+	"537":"No Items",
+	"540":"Do It!",
+	"545":"HIT!",
+	"550":"BLOCK!",
+	"551":"MISS!",
+	"552":"BOOM!",
+	"553":"Immune",
+	"555":"You Lose!",
+	"560":"You Win!",
+	"565":"Dismiss",
+	"570":"BUY\nNOW",
+	"575":"Premium\nUpgrade",
+	"580":"Show Saved",
+	"585":"Play\nSaved",
+	"590":"Got It!!",
+	"600":"Waiting For Opponent",
+	"610":"Woops!  Already Rematched",
+	"700":"Easy",
+	"710":"Medium",
+	"720":"Difficult",
+	"800":"Single Player",
+	"810":"Multi Player",
+	"820":"New",
+	"821":"Play a new single player game against the AI",
+	"825":"Saved",
+	"826":"Continue a saved single player game against the AI",
+	"830":"In Progress",
+	"835":"",
+	"840":"Unknown Opponent",
+	"845":"",
+	"850":"Legatus AI",
+	"855":"your move",
+	"856":"opponent moving",
+	"857":"moving",
+	"860":"Invite",
+	"861":"invitation from",
+	"862":"No Invitations",	
+	"863":"accept",
+	"864":"decline",
+	"870":"Invite someone to play a specific game.",
+	"880":"Quick Match",
+	"890":"Joins an open match.\n If none starts one.",
+	"900":"Move",
+	"905":"Play your next move.",
+	"910":"Accept",
+	"915":"Accept an invitation",
+	"1000":"ago",
+	"1005":"day",
+	"1006":"days",
+	"1010":"hour",
+	"1011":"hours",
+	"1015":"min",
+	"1016":"mins",
+	"1020":"sec",
+	"1021":"secs",
+		
+				
+	"2010":"The Line",
+	"2020":"Hedge Row",
+	"2030":"Ranks",
+	"2040":"Lake",
+	"2050":"Advance",
+	"2060":"The Stand",
+	"2070":"Lost",
+	"2080":"Cornered",
+	"2090":"Forest Pool",
+	"2100":"Posse",
+	"2110":"Cover To Cover",
+	"2120":"Snipers",	
+						
+	"2130":"Treeline",
+	"2140":"River",
+	"2150":"Battleground",		
+	"2160":"Island",				
+	"2170":"The Wedge",				
+	"2180":"Woods",				
+	"2190":"Run Away",		
+	"2200":"Encampment",
+	"2210":"Four Square",
+	"2220":"Plantation",		
+	"2230":"Outflanked",				
+	"2240":"Culdesac",				
+	"2250":"Brawlers",				
+	"2260":"Windbreak",						
+	"2270":"You're Kidding Me",				
+	"2280":"Nowhere To Go",	
+	"2290":"The Front",							
+	"2300":"The Marsh",								
+	"2310":"Face To Face",				
+	"2320":"The Gap",
+	"2330":"Scrum",
+	"2340":"Lakeland",
+	"2350":"Puddle Jumper",				
+	"2360":"Bombs Away",				
+		
+	"3001":"Demo",
+	
+	
+	"4000":"Legatus - Just like Chess, only different.",
+	
+	"5000":"About",
+	"5005":"The short description is that Legatus is Chess with a touch of Rock Paper Scissors.",
+	"5010":"The long description is that Legatus is a game that draws its influence from Chess, brings in terrain and a clearer separation of offence and defence.",
+	"5015":"The game can be a challenge particularly against the AI so take your time. Everything is always saved so you lose nothing by taking a break.",
+	
+	"5100":"Quick Start",
+	"5105":"To see where a unit can move and what it can attack simply hold it.",
+	"5110":"If you are the sort of person who reads instructions after playing the game the minimum you need to know is that some units are immune to other units.",
+	"5115":"Fortresses and Armour are  units that are intended to block. They can't attack and are immune to Infantry and Archers. Cavalry can beat Armour and Bombadiers beat everything.",
+		
+	"5200":"Gameplay",
+	"5205":"The Objective is to capture the opposing Crown. There is no checkmate or stalemate.",
+	"5210":"To do this you have units that are classified as Offensive, Defensive and Special.",
+	"5215":"The basic idea is to use Defensive units to provide cover for Offensive units and Special units to break Defensive lines.",
+			
+	"5300":"Offence",
+	"5305":"Your short and long range Offense is provided by Infantry and Archers.",
+	"5310":"Both of these guys move along horizontals, verticals and diagonals with Infantry having a range of up to two squares and Archers unlimited.",
+	"5315":"Offensive units can capture and be captured by other Offensive units as well as Special units.",
+	"5320":"Archers you will learn to hate...",
+	
+	"5400":"Defence",
+	"5405":"Your short and long range Defense is provided by Armour and Fortresses.",
+	"5410":"These move along horizontals, verticals and diagonals with Armour having a range of two squares and Fortresses unlimited.",
+	"5415":"Defensive units are immune to Offensive attack but not to Special.",
+	"5420":"Defensive units can only attack the Crown.",
+	
+	"5500":"Special",
+	"5505":"Cavalry and Bombadiers are your special units. These are intended to break Defense.",
+	"5510":"The big difference is how they move. They have a range of two squares but unlike your Offensive and Defensive units they can land on any available square in range.",
+	"5515":"This means they can jump over other units and can land on the off squares like a knight in Chess.",
+		
+	"5600":"Terrain",
+	"5605":"Unlike Chess Legatus introduces Terrain elements comprising Water and Forest.",
+	"5610":"The role of Terrain in Legatus is to provide cover and separate units.",
+	"5615":"Forest blocks everything although Special units can jump it. Water blocks Defence and Infantry but not Archers and Special.",
+	
+	"5700":"Winning",
+	"5705":"Legatus is won when you capture the opponents Crown, so don't lose yours!",
+	"5710":"There is no Checkmate or Stalemate here. If you want to resign simply let your opponent win.",
+	"5715":"You will be warned if your opponent has targetted your Crown, but NOT if you move your Crown into a line of fire.",
+	
+	"5800":"Single Player",
+	"5805":"Available from the crossed swords menu",
+	"5810":"In single player mode you are playing against an AI that is particularly unforgiving.",
+	"5815":"Its a harder opponent than most people so use it as a learning tool.",
+	"5820":"The hints section from the menu above provides some basic ideas that should help you get started.",
+	
+	"5900":"Multi Player",
+	"5905":"Turnbased multiplayer is available from the controller menu.",
+	"5910":"Turnbased means you don't have to stay connected and your opponent does not need to be online at the same time. Make your move and forget about it until your opponent replies.",
+	"5920":"You CAN play premium games if invited even if you have not purchased the upgrade.",
+	
+	"6000":"Quickmatch",
+	"6005":"Quickmatch available from the Multiplayer screen enables you to play against anyone who wants a game.",
+	"6010":"It first looks for any open game. From your view this is essentially random and can be any of the games in Legatus including premium.",
+	"6015":"If it can't find an open game to join it will let you choose the particular game and make the first move.",
+	
+	"6100":"Invitation",
+	"6105":"Invitation games let you send an invitation to a specific person from your Google+ circles.",
+	"6110":"The person you send the invite to does not have to have the game installed and they can play a premium game if you have purchased it and they haven't.",
+		
+	"6900":"Gear Menu",
+	"6905":"The Gear Menu is a utility menu that provides access to a couple of functions you probably wont change a lot.",
+	"6910":"You can mannually connect and disconnect from Google Play, view your achievements and turn off the games sound from the Gear menu.",
+	"6915":"Note you will be unable to access multiplayer without Google Play.",
+			
+	"8000":"Crown",
+	"8005":"Like Chess the objective of Legatus is to capture the Crown.",	
+	"8010":"It can move one square in any direction.",
+	"8015":"It can defeat any unit on the board.",
+	"8020":"You will be warned if it is threatened, but NOT when you move it into threat yourself.",
+	
+	"8100":"Infantry",
+	"8105":"Infantry are your low level Offensive elements.",
+	"8110":"Moves two squares horizontally, vertically and diagonally.",
+	"8115":"Is blocked by Water.",
+	"8120":"Armour and Fortesses are immune to them.",
+	"8125":"Works well when paired up with another unit to provide cover or defense.",
+	
+	"8200":"Armour",
+	"8205":"Armour is your standard Defensive element.",
+	"8210":"Moves two squares horizontally, vertically and diagonally.",
+	"8215":"Is blocked by Water.",
+	"8220":"Can't attack anything except the opponents Crown.",
+	"8225":"Is immune to Infantry and Archers.",
+	
+	"8300":"Archer",
+	"8305":"The Archer is the games sniper and the piece that will cause you most grief.",
+	"8310":"Unlimited straight line range in all directions.",
+	"8315":"Is not blocked by Water.",
+	"8320":"Armour and Fortesses are immune to them.",
+	"8325":"Cavalry and Bombadiers are a risk to them.",
+	
+	"8400":"Fortress",
+	"8405":"The Fortress is the games heavy defence.",
+	"8410":"Unlimited straight line range.",
+	"8415":"Is blocked by water",
+	"8420":"Can't attack anything except the opponents Crown.",
+	"8425":"Is immune to everything except Bombadiers and the opponents Crown.",
+	
+	"8500":"Cavalry",
+	"8505":"Cavalry is your base Armour busting special unit.",
+	"8510":"Moves to any square within a two cell range. ",
+	"8520":"Can jump water, trees and other pieces and land on off diagonal squares.",
+	"8525":"Can defeat Armour but not Fortresses",
+	
+	"8600":"Bombadier",
+	"8605":"Bombadiers are your Fortress busting special unit.",
+	"8610":"Moves to any square within a two cell range.",
+	"8615":"Is not restricted to line of sight.",
+	"8620":"Can jump water, trees and other pieces and land on off diagonal squares.",
+	"8625":"Can defeat anything.",
+	
+	"8700":"Water",
+	"8705":"Water is a Terrain element intended to separate units from each other.",
+	"8710":"It does not move.",
+	"8715":"Archers and Special units can cross it. Defenders and Infantry can't. ",
+	"8720":"Your most grief will be Archers that can cross it when you think you are protected.",
+	
+	"8800":"Forest",
+	"8805":"Forest is a Terrain element that is intended to block.",
+	"8810":"It does not move.",
+	"8815":"Like Water special units can cross it if it is one cell thick.",
+	"8820":"",
+	"8825":"",
+		
+	"9000":"Cover",
+	"9005":"Archers with unlimited range and many lines of fire are a particular problem in Legatus",
+	"9010":"They more than anything else force you to double check diagonals.",
+	"9015":"If you have Terrain available keep trees between you and opposing archers.",
+	"9020":"If none are available try and keep Defensive elements between you and them.",
+	
+	"9100":"Support",
+	"9105":"Like Chess it is best to always move a piece onto a position that is within line of fire of another of your pieces.",
+	"9110":"You need to force your opponent to face certain loss of any attacking element.",
+	"9115":"When doing this it is best to support lower value units with higher value ones.",
+	"9120":"",
+	
+	
+	"9200":"Pressure",
+	"9205":"Once you get the support idea working you will find the concept of Pressure comes to mind.",
+	"9210":"This is when you are able to force the opponent to move off a square by advancing a unit forward that they don't want to attack.",
+	"9215":"Cavalry and Bombadiers are particularly good at applying pressure because they can advance on squares the other units can't hit.",
+
+	
+	"9300":"Value",
+	"9305":"Units have value that is defined by the territory they are able to reach. This is then modified by what is on the board.",
+	"9310":"Infantry and Armour 16, Cavalry and Bombadiers 24 and Archers and Fortresses 34.",
+	"9315":"If the opponent has Fortresses then Bombadiers are worth more than Archers. If they have Archers then Armour is worth more than Infantry.",
+	
+	"9400":"Strategy",
+	"9405":"Strategy in Legatus like Chess involves having a picture in mind of how you want to end the game before you start.",
+	"9410":"The units you put at risk and the units you focus on attacking need to line up with this.",
+	"9415":"For example if you want to close with Archers then you can put your Cavalry at risk early and degrade the opponents Armour.",
+	
+	
+	"9500":"Aggression",
+	"9505":"If you put your opponent under pressure they must move it or lose it.",
+	"9510":"The AI plays aggressively and does an admirable job of forcing you to react to it",
+	"9515":"If you play too defensively the AI will just wear you down.",
+	"9520":"Ideally you want your opponent having to waste their move reacting to you. So don't play turtle.",
+	
+	
+	"9600":"Learn",
+	"9605":"The AI is going to beat you more often than you will like to admit.",
+	"9610":"Watch where it places units and how it attacks.",
+	"9615":"Unlike Chess there are no books on Legatus, no set moves, no standard plays.",
+	"9620":"The only way to learn is by playing. When you get beaten take a break and learn from it - then go and beat a human.",
+	
+	"10000":"Welcome",
+	"10010":"Getting Started",
+	"10020":"To keep this quick we are going to take you over to the Help screens to show you how to play and then we will fire up the Single Player menu for your first game.",
+	"10030":"Normally you would access Single Player games via the Crossed Swords menu.",
+	"10040":"Multi Player games are via the Controller Menu.",
+	"10050":"Help is available at any time via the Help Menu.",
+	"10060":"Take your time and Good Luck."
+		
+	},
+		
+	"strings":{
+			"brand":{"description":"4000"},
+			"selector":{
+						"game":"5",
+						"play":"10",
+						"play-again":"11",
+						"unplayed":"15",
+						"incomplete":"20",
+						"lost":"21",
+						"won":"25",						
+						"select-game":"30",
+						"new-game":"31",
+						"no-play-time":"35",
+						"empty":"0",
+						"purchase":"570",
+						"upgrade":"575",
+						"show-saved":"580",
+						"play-saved":"585",
+						"already-rematched":"610",
+						"easy":"700",
+						"medium":"710",
+						"difficult":"720",
+						"single":"800",
+						"multi":"810",
+						"new":"820",
+						"new_desc":"821",
+						"saved":"825",
+						"saved_desc":"826",
+						"in_progress":"830",
+						"no_saved_games":"835",	
+						"unknown":"840",
+						"no-one":"845",
+						"ai":"850",
+						"your-move":"855",
+						"ai-move":"856",					
+						"moving":"857",
+						"invitation":"860",
+						"invitation_desc":"870",
+						"quickmatch":"880",
+						"quickmatch_desc":"890",
+						"in_progress":"900",
+						"in_progress_desc":"905",
+						"accept":"910",
+						"accept_desc":"915",
+						"played-ago":"1000",
+						"day":"1005",
+						"days":"1006",
+						"hour":"1010",
+						"hours":"1011",
+						"min":"1015",
+						"mins":"1016",
+						"sec":"1020",
+						"secs":"1021"
+						},
+			"game_names":{
+			
+						"TheLine":"2010",
+						"HedgeRow":"2020",
+						"Ranks":"2030",
+						"Lake":"2040",
+						"Advance":"2050",
+						"TheStand":"2060",
+						"Lost":"2070",
+						"Cornered":"2080",
+						"ForestPool":"2090",
+						"Posse":"2100",
+						"CoverToCover":"2110",
+						"Snipers":"2120",		
+						
+						"Treeline":"2130",
+						"River":"2140",
+						"Battleground":"2150",		
+						"Island":"2160",				
+						"TheWedge":"2170",				
+						"Woods":"2180",				
+						"RunAway":"2190",		
+						"Encampment":"2200",
+						"FourSquare":"2210",
+						"Plantation":"2220",		
+						"Outflanked":"2230",				
+						"Culdesac":"2240",				
+						"Brawlers":"2250",				
+						"Windbreak":"2260",						
+						"YourKiddingMe":"2270",				
+						"NowhereToGo":"2280",	
+						"TheFront":"2290",							
+						"TheMarsh":"2300",								
+						"FaceToFace":"2310",				
+						"TheGap":"2320",
+						"Scrum":"2330",
+						"Lakeland":"2340",
+						"PuddleJumper":"2350",				
+						"BombsAway":"2360",				
+							
+						"Test":"3001"
+			
+						},
+			"dialog":{"intro":"60","units":"65","hints":"70"},
+			"gear":{"resume":"95","connect":"120","disconnect":"125","nocloud":"130","soundon":"135","soundoff":"140","achievements":"145","feedback":"150"},
+			"popups":{"help":"110","reset":"115","win":"560","lose":"555","dismiss":"565","got-it":"590"},
+			"price":{
+					"price":"0","premium":"505","no-ads":"506","num-games":"507",
+					"purchasing":"509","purchased":"510",
+					"succeeded":"511","failed":"512",
+					"upgrading":"513","completed":"514",
+					"no-store":"521","refunded":"525",
+					"cancelled":"530","owned":"535",
+					"no-items":"537"
+					},
+			"invites":{"empty":"0","invitation_from":"861","no_invites":"862","accept":"863","decline":"864"},
+			"game_text":{"hit":"545","block":"550","miss":"551","boom":"552","immune":"553","waiting":"600"}
+			},
+	
+	"dialogs":[
+		{
+		"type":"info_tab",
+		"name":"intro",
+		"menu":[
+				{
+				"name":"intro-background",
+				"key":"icons-dialog",
+				"frame":0,
+				"content":[
+						{"style":"heading","text":"5000"},
+						{"style":"left-column","text":"5005"},
+						{"style":"body","text":"5010"},
+						{"style":"body","text":"5015"},
+						{"style":"image","portrait":{"x":450,"y":50},"landscape":{"x":550,"y":30},"key":"icons-dialog-200","frame":4}
+					]
+				},
+				
+				{
+				"name":"intro-quickstart",
+				"key":"icons-dialog",
+				"frame":1,
+				"content":[
+						{"style":"heading","text":"5100"},
+						{"style":"left-column","text":"5105"},
+						{"style":"body","text":"5110"},
+						{"style":"body","text":"5115"},
+						{"style":"image","portrait":{"x":450,"y":50},"landscape":{"x":550,"y":30},"key":"icons-dialog-200","frame":4}
+					]
+				},
+				
+				{
+				"name":"intro-gameplay",
+				"key":"icons-dialog",
+				"frame":2,
+				"content":[
+						{"style":"heading","text":"5200"},
+						{"style":"left-column","text":"5205"},
+						{"style":"body","text":"5210"},
+						{"style":"body","text":"5215"},
+						{"style":"image","portrait":{"x":450,"y":50},"landscape":{"x":550,"y":30},"key":"icons-dialog-200","frame":4}
+					]
+				},
+				
+				{
+				"name":"intro-offense",
+				"key":"icons-dialog",
+				"frame":3,
+				"content":[
+						{"style":"heading","text":"5300"},
+						{"style":"left-column","text":"5305"},
+						{"style":"body","text":"5310"},
+						{"style":"body","text":"5315"},
+						{"style":"body","text":"5320"},
+						{"style":"image","portrait":{"x":450,"y":50},"landscape":{"x":550,"y":30},"key":"icons-dialog-200","frame":0}
+					]
+				},
+				
+				{
+				"name":"intro-defense",
+				"key":"icons-dialog",
+				"frame":4,
+				"content":[
+						{"style":"heading","text":"5400"},
+						{"style":"left-column","text":"5405"},
+						{"style":"body","text":"5410"},
+						{"style":"body","text":"5415"},
+						{"style":"body","text":"5420"},
+						{"style":"image","portrait":{"x":450,"y":50},"landscape":{"x":550,"y":30},"key":"icons-dialog-200","frame":1}
+					]
+				},
+				
+				{
+				"name":"intro-special",
+				"key":"icons-dialog",
+				"frame":5,
+				"content":[
+						{"style":"heading","text":"5500"},
+						{"style":"left-column","text":"5505"},
+						{"style":"body","text":"5510"},
+						{"style":"body","text":"5515"},
+						{"style":"image","portrait":{"x":450,"y":50},"landscape":{"x":550,"y":30},"key":"icons-dialog-200","frame":2}
+					]
+				},
+				
+				{
+				"name":"intro-terrain",
+				"key":"icons-dialog",
+				"frame":6,
+				"content":[
+						{"style":"heading","text":"5600"},
+						{"style":"left-column","text":"5605"},
+						{"style":"body","text":"5610"},
+						{"style":"body","text":"5615"},
+						{"style":"image","portrait":{"x":450,"y":50},"landscape":{"x":550,"y":30},"key":"icons-dialog-200","frame":3}
+					]
+				},
+				
+				{
+				"name":"intro-winning",
+				"key":"icons-dialog",
+				"frame":7,
+				"content":[
+						{"style":"heading","text":"5700"},
+						{"style":"left-column","text":"5705"},
+						{"style":"body","text":"5710"},
+						{"style":"body","text":"5715"},
+						{"style":"image","portrait":{"x":450,"y":50},"landscape":{"x":550,"y":30},"key":"icons-dialog-200","frame":5}
+					]
+				},
+				
+				{
+				"name":"intro-single",
+				"key":"icons-dialog",
+				"frame":8,
+				"content":[
+						{"style":"heading","text":"5800"},
+						{"style":"left-column","text":"5805"},
+						{"style":"left-column","text":"5810"},
+						{"style":"body","text":"5815"},
+						{"style":"body","text":"5820"},
+						{"style":"image","portrait":{"x":450,"y":50},"landscape":{"x":550,"y":30},"key":"icons-dialog-200","frame":11}
+					]
+				},
+				
+				{
+				"name":"intro-multi",
+				"key":"icons-dialog",
+				"frame":10,
+				"content":[
+						{"style":"heading","text":"5900"},
+						{"style":"left-column","text":"5905"},
+						{"style":"body","text":"5910"},
+						{"style":"body","text":"5920"},
+						{"style":"image","portrait":{"x":450,"y":50},"landscape":{"x":550,"y":30},"key":"icons-dialog-200","frame":12}
+					]
+				},
+				
+				{
+				"name":"intro-quick",
+				"key":"icons-dialog",
+				"frame":9,
+				"content":[
+						{"style":"heading","text":"6000"},
+						{"style":"left-column","text":"6005"},
+						{"style":"body","text":"6010"},
+						{"style":"body","text":"6015"},
+						{"style":"body","text":"6020"},
+						{"style":"image","portrait":{"x":450,"y":50},"landscape":{"x":550,"y":30},"key":"icons-dialog-200","frame":12}
+					]
+				},
+				
+				{
+				"name":"intro-invited",
+				"key":"icons-dialog",
+				"frame":11,
+				"content":[
+						{"style":"heading","text":"6100"},
+						{"style":"left-column","text":"6105"},
+						{"style":"body","text":"6110"},
+						{"style":"body","text":"6115"},
+						{"style":"body","text":"6120"},
+						{"style":"image","portrait":{"x":450,"y":50},"landscape":{"x":550,"y":30},"key":"icons-dialog-200","frame":12}
+					]
+				},
+				
+				{
+				"name":"intro-gear",
+				"key":"icons-dialog",
+				"frame":12,
+				"content":[
+						{"style":"heading","text":"6900"},
+						{"style":"left-column","text":"6905"},
+						{"style":"body","text":"6910"},
+						{"style":"body","text":"6915"},
+						{"style":"image","portrait":{"x":450,"y":50},"landscape":{"x":550,"y":30},"key":"icons-dialog-200","frame":6}
+					]
+				}							
+			]
+		},
+										
+		{
+		"type":"info_tab",
+		"name":"units",
+		"menu":[
+				{
+				"name":"units-crown",
+				"key":"tiles-dialog",
+				"frame":6,
+				"content":[
+						{"style":"heading","text":"8000"},
+						{"style":"left-column","text":"8005"},
+						{"style":"left-column","text":"8010"},
+						{"style":"right-column","text":"8015"},
+						{"style":"right-column","text":"8020"},
+						{"style":"image","portrait":{"x":450,"y":50},"landscape":{"x":550,"y":40},"key":"tiles-dialog","frame":15},
+						{"style":"image","portrait":{"x":20,"y":420},"landscape":{"x":20,"y":320},"key":"dialog-moves","frame":3}
+					]
+				},
+				{
+				"name":"units-infantry",
+				"key":"tiles-dialog",
+				"frame":1,
+				"content":[
+						{"style":"heading","text":"8100"},
+						{"style":"left-column","text":"8110"},
+						{"style":"body","text":"8115"},
+						{"style":"right-column","text":"8120"},
+						{"style":"right-column","text":"8125"},
+						{"style":"image","portrait":{"x":450,"y":50},"landscape":{"x":550,"y":40},"key":"tiles-dialog","frame":10},
+						{"style":"image","portrait":{"x":20,"y":420},"landscape":{"x":20,"y":320},"key":"dialog-moves","frame":0}
+					]
+				},
+				{
+				"name":"units-armour",
+				"key":"tiles-dialog",
+				"frame":2,
+				"content":[
+						{"style":"heading","text":"8200"},
+						{"style":"left-column","text":"8205"},
+						{"style":"left-column","text":"8210"},
+						{"style":"right-column","text":"8215"},
+						{"style":"right-column","text":"8220"},
+						{"style":"right-column","text":"8225"},
+						{"style":"image","portrait":{"x":450,"y":50},"landscape":{"x":550,"y":40},"key":"tiles-dialog","frame":11},
+						{"style":"image","portrait":{"x":20,"y":420},"landscape":{"x":20,"y":320},"key":"dialog-moves","frame":0}
+					]
+				},
+				{
+				"name":"units-archer",
+				"key":"tiles-dialog",
+				"frame":5,
+				"content":[
+						{"style":"heading","text":"8300"},
+						{"style":"left-column","text":"8305"},
+						{"style":"body","text":"8310"},
+						{"style":"right-column","text":"8315"},
+						{"style":"right-column","text":"8320"},
+						{"style":"right-column","text":"8325"},
+						{"style":"image","portrait":{"x":450,"y":50},"landscape":{"x":550,"y":40},"key":"tiles-dialog","frame":14},
+						{"style":"image","portrait":{"x":20,"y":420},"landscape":{"x":20,"y":320},"key":"dialog-moves","frame":1}
+					]
+				},
+				{
+				"name":"units-fortress",
+				"key":"tiles-dialog",
+				"frame":0,
+				"content":[
+						{"style":"heading","text":"8400"},
+						{"style":"left-column","text":"8405"},
+						{"style":"left-column","text":"8410"},
+						{"style":"right-column","text":"8415"},
+						{"style":"right-column","text":"8420"},
+						{"style":"right-column","text":"8425"},
+						{"style":"image","portrait":{"x":450,"y":50},"landscape":{"x":550,"y":40},"key":"tiles-dialog","frame":9},
+						{"style":"image","portrait":{"x":20,"y":420},"landscape":{"x":20,"y":320},"key":"dialog-moves","frame":1}
+					]
+				},
+				{
+				"name":"units-cavalry",
+				"key":"tiles-dialog",
+				"frame":4,
+				"content":[
+						{"style":"heading","text":"8500"},
+						{"style":"left-column","text":"8505"},
+						{"style":"left-column","text":"8510"},
+						{"style":"right-column","text":"8520"},
+						{"style":"right-column","text":"8525"},
+						{"style":"image","portrait":{"x":450,"y":50},"landscape":{"x":550,"y":40},"key":"tiles-dialog","frame":13},
+						{"style":"image","portrait":{"x":20,"y":420},"landscape":{"x":20,"y":320},"key":"dialog-moves","frame":2}
+					]
+				},
+				{
+				"name":"units-bombadier",
+				"key":"tiles-dialog",
+				"frame":3,
+				"content":[
+						{"style":"heading","text":"8600"},
+						{"style":"left-column","text":"8605"},
+						{"style":"left-column","text":"8610"},
+						{"style":"right-column","text":"8615"},
+						{"style":"right-column","text":"8620"},
+						{"style":"right-column","text":"8625"},
+						{"style":"image","portrait":{"x":450,"y":50},"landscape":{"x":550,"y":40},"key":"tiles-dialog","frame":12},
+						{"style":"image","portrait":{"x":20,"y":420},"landscape":{"x":20,"y":320},"key":"dialog-moves","frame":2}
+					]
+				},
+				{
+				"name":"units-water",
+				"key":"tiles-dialog",
+				"frame":7,
+				"content":[
+						{"style":"heading","text":"8700"},
+						{"style":"left-column","text":"8705"},
+						{"style":"body","text":"8710"},
+						{"style":"body","text":"8715"},
+						{"style":"body","text":"8720"},
+						{"style":"image","portrait":{"x":450,"y":50},"landscape":{"x":550,"y":40},"key":"tiles-dialog","frame":16}
+					]
+				},
+				{
+				"name":"units-forest",
+				"key":"tiles-dialog",
+				"frame":8,
+				"content":[
+						{"style":"heading","text":"8800"},
+						{"style":"left-column","text":"8805"},
+						{"style":"body","text":"8810"},
+						{"style":"body","text":"8815"},
+						{"style":"body","text":"8820"},
+						{"style":"image","portrait":{"x":450,"y":50},"landscape":{"x":550,"y":40},"key":"tiles-dialog","frame":17}
+					]
+				}
+			]
+		},
+				
+		{
+		"type":"info_tab",
+		"name":"hints",
+		"menu":[
+				{
+				"name":"hints-cover",
+				"key":"icons-dialog",
+				"frame":13,
+				"content":[
+						{"style":"heading","text":"9000"},						
+						{"style":"left-column","text":"9005"},
+						{"style":"body","text":"9010"},
+						{"style":"body","text":"9015"},
+						{"style":"body","text":"9020"},
+						{"style":"image","portrait":{"x":450,"y":50},"landscape":{"x":550,"y":50},"key":"icons-dialog-200","frame":7}
+					]
+				},
+				{
+				"name":"hints-support",
+				"key":"icons-dialog",
+				"frame":14,
+				"content":[
+						{"style":"heading","text":"9100"},						
+						{"style":"left-column","text":"9105"},
+						{"style":"body","text":"9110"},
+						{"style":"body","text":"9115"},
+						{"style":"body","text":"9120"},
+						{"style":"image","portrait":{"x":450,"y":50},"landscape":{"x":550,"y":50},"key":"icons-dialog-200","frame":9}
+					]
+				},
+				{
+				"name":"hints-pressure",
+				"key":"icons-dialog",
+				"frame":15,
+				"content":[
+						{"style":"heading","text":"9200"},						
+						{"style":"left-column","text":"9205"},
+						{"style":"body","text":"9210"},
+						{"style":"body","text":"9215"},
+						{"style":"image","portrait":{"x":450,"y":50},"landscape":{"x":550,"y":50},"key":"icons-dialog-200","frame":8}
+					]
+				},
+				{
+				"name":"hints-value",
+				"key":"icons-dialog",
+				"frame":16,
+				"content":[
+						{"style":"heading","text":"9300"},						
+						{"style":"left-column","text":"9305"},
+						{"style":"body","text":"9310"},
+						{"style":"body","text":"9315"},
+
+						{"style":"image","portrait":{"x":450,"y":50},"landscape":{"x":550,"y":50},"key":"icons-dialog-200","frame":4}
+					]
+				},
+				{
+				"name":"hints-long-view",
+				"key":"icons-dialog",
+				"frame":17,
+				"content":[
+						{"style":"heading","text":"9400"},						
+						{"style":"left-column","text":"9405"},
+						{"style":"body","text":"9410"},
+						{"style":"body","text":"9415"},
+						{"style":"image","portrait":{"x":450,"y":50},"landscape":{"x":550,"y":50},"key":"icons-dialog-200","frame":4}
+					]
+				},
+				{
+				"name":"hints-aggression",
+				"key":"icons-dialog",
+				"frame":18,
+				"content":[
+						{"style":"heading","text":"9500"},						
+						{"style":"left-column","text":"9505"},
+						{"style":"left-column","text":"9510"},
+						{"style":"body","text":"9515"},
+						{"style":"body","text":"9520"},
+						{"style":"image","portrait":{"x":450,"y":50},"landscape":{"x":550,"y":50},"key":"icons-dialog-200","frame":4}
+					]
+				},
+				{
+				"name":"hints-learn",
+				"key":"icons-dialog",
+				"frame":19,
+				"content":[
+						{"style":"heading","text":"9600"},						
+						{"style":"left-column","text":"9605"},
+						{"style":"left-column","text":"9610"},
+						{"style":"body","text":"9615"},
+						{"style":"body","text":"9620"},
+						{"style":"image","portrait":{"x":450,"y":50},"landscape":{"x":550,"y":50},"key":"icons-dialog-200","frame":4}
+					]
+				}
+			]
+		}
+	],
+
+"popups":[
+			{
+			"type":"popup_page",
+			"name":"welcome",
+			"page":[
+				{
+				"section_name":"welcome1.1",
+				"heading":{"style":"heading","text":"10000"},
+				"subhead":{"style":"subhead","text":"10010"},
+				"txt-1":{"style":"body","text":"10020"}
+				},
+				{
+				"section_name":"welcome1.2",
+				"txt-2":{"style":"right-column","text":"10030"},
+				"txt-3":{"style":"left-column","text":"10040"},				
+				"img-sword":{"style":"image","portrait":{"x":-240,"y":-250},"landscape":{"x":-240,"y":-250},"key":"icons-control-xl","frame":13},
+				"img-controller":{"style":"image","portrait":{"x":100,"y":0},"landscape":{"x":100,"y":0},"key":"icons-control-xl","frame":18}
+				},
+				{
+				"section_name":"welcome1.3",
+				"txt-4":{"style":"right-column","text":"10050"},
+				"txt-5":{"style":"body","text":"10060"},
+				"img-help":{"style":"image","portrait":{"x":-240,"y":-250},"landscape":{"x":-240,"y":-250},"key":"icons-control-xl","frame":14}
+				}
+			]
+		}
+	]
+}

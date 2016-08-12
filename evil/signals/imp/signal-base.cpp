@@ -91,7 +91,7 @@ namespace evil {
 	void SignalBase::addSlot(SlotBase *slot, bool fire_once, int priority, bool active) {
 
 	
-		assert(slot->mpcSignal == NULL && "Signal already has a slot");
+		assert(slot->mpcSignal == NULL && "Slot already attached to a signal");
 
 		if(mbThreadSafe) {
 			ReadWriteLock lock(&mRWMutex, ReadWriteLock::WRITE);
